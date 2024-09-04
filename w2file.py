@@ -1,0 +1,5 @@
+file=open('ex2.txt','w')
+file.write('Hello,this is a line of text.\n')
+file.write("This is another line of text.\n")
+print("Data written to the file.")
+file.close()
