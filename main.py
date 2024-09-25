@@ -4,8 +4,8 @@ print(module2.func2())
 
 print("Using Second Method: ")
 import mypackage
-print(module1.func1())
-print(module2.func2())
+print(mypackage.func1())
+print(mypackage.func2())
 
 print("Using Third Method: ")
 from mypackage.module1 import func1
